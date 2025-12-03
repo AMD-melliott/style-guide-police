@@ -89,7 +89,7 @@ The product is called **"Project Alpha"** (capital A), not "Project Alfa" or "Pr
 
 **Tip:** In VS Code, you can enable **View → Appearance → Render Whitespace** to see spaces and tabs as dots and arrows.
 
-![vscode-render-whitespace](./screenshots/vscode-render-whitespace)
+![vscode-render-whitespace](./screenshots/vscode-render-whitespace.png)
 
 **Tip:**: If you have difficulty seeing the rendered whitespace dots, try changing the VS Code theme. Navigate to **File → Preferences → Theme → Color Theme**
 
@@ -134,12 +134,12 @@ This is where VS Code really shines! Let's visually review what you've changed.
 
 1. Click on the **Source Control** icon in the left sidebar (it looks like a branch with circles)
 
-![vscode-render-whitespace](./screenshots/vscode-render-whitespace)
+![vscode-source-control](./screenshots/vscode-source-control.png)
 
 2. You should see `press_release.md` listed under **Changes**
 3. Click on `press_release.md` to open the **Diff View**
 
-**[SCREENSHOT PLACEHOLDER: VS Code Diff View showing side-by-side comparison with red deletions and green additions]**
+![vscode-diff](./screenshots/vscode-diff.png)
 
 **What you're seeing:**
 - **Left side:** Original version (what it was before)
@@ -189,7 +189,7 @@ Now let's create a commit with a clear message.
    - Fix spacing inconsistencies
    ```
 
-![vscode-git-commit](./screenshots/vscode-git-commit)
+![vscode-git-commit](./screenshots/vscode-git-commit.png)
 
 3. Click the **✓ Commit** button (or press `Ctrl+Enter` / `Cmd+Enter`)
 
