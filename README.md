@@ -241,11 +241,11 @@ Now let's propose your changes for review.
 
 ## Key Takeaways
 
-✅ **VS Code's Diff View** makes it easy to review changes visually
-✅ **Source Control sidebar** provides a GUI alternative to command-line Git
-✅ **Staging changes** gives you control over what goes into each commit
-✅ **Clear commit messages** help collaborators understand your work
-✅ **Pull requests** enable code review and discussion before merging
+- ✅ **VS Code's Diff View** makes it easy to review changes visually
+- ✅ **Source Control sidebar** provides a GUI alternative to command-line Git
+- ✅ **Staging changes** gives you control over what goes into each commit
+- ✅ **Clear commit messages** help collaborators understand your work
+- ✅ **Pull requests** enable code review and discussion before merging
 
 ---
 
