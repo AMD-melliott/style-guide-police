@@ -5,6 +5,7 @@
 Learn to use VS Code's diff and staging features by fixing formatting errors. This exercise focuses on visual code review and leveraging VS Code's built-in Git tools instead of the command line.
 
 **What you'll learn:**
+
 - How to clone repositories using VS Code's GUI
 - Using the Diff View to review changes before committing
 - Staging and committing directly in VS Code
@@ -46,12 +47,14 @@ Instead of using the command line, we'll clone this repository using VS Code's b
 Let's create a branch for our fixes using VS Code.
 
 **Option A: Using the Command Palette**
+
 1. Press `Ctrl+Shift+P` / `Cmd+Shift+P`
 2. Type `Git: Create Branch` and select it
 3. Enter a branch name: `fix-formatting-errors`
 4. Press Enter
 
 **Option B: Using the Status Bar**
+
 1. Look at the bottom-left corner of VS Code
 2. Click on the branch name (it should say `main`)
 
@@ -71,18 +74,22 @@ Open `press_release.md` in VS Code and review it carefully.
 **What to Look For:**
 
 #### ❌ Missing Headers
+
 Markdown headers should use `#` symbols:
 - `# Heading 1` for main title
 - `## Heading 2` for sections
 - `### Heading 3` for subsections
 
 #### ❌ Double Spaces
+
 Look for multiple spaces between words (they're hard to see, but they're there!)
 
 #### ❌ Misspelled Product Names
+
 The product is called **"Project Alpha"** (capital A), not "Project Alfa" or "Project alfa"
 
 #### ❌ Extra Spacing
+
 - Multiple spaces after periods
 - Unnecessary spaces before punctuation
 - Inconsistent line breaks
@@ -108,20 +115,24 @@ Go through `press_release.md` and fix all the issues. Here's what the clean vers
 ```
 
 **Product name should be consistent:**
+
 - Change "Project Alfa" → "Project Alpha"
 - Change "Project alfa" → "Project Alpha"
 
 **Remove double spaces:**
+
 - "New  Product" → "New Product"
 - "Project Alfa  includes" → "Project Alpha includes"
 
 **Section headers should use proper Markdown:**
+
 ```markdown
 ## Key Features
 
 ## About Project Alpha
 
 ## Contact Information
+
 ```
 
 Don't rush! Take your time to catch all the errors.
@@ -142,12 +153,14 @@ This is where VS Code really shines! Let's visually review what you've changed.
 ![vscode-diff](./screenshots/vscode-diff.png)
 
 **What you're seeing:**
+
 - **Left side:** Original version (what it was before)
 - **Right side:** Your version (what you changed)
 - **Red highlights:** Lines you removed or changed
 - **Green highlights:** New or modified content
 
 4. Review each change carefully:
+
    - Did you fix all the double spaces?
    - Are all instances of "Alfa" now "Alpha"?
    - Are headers properly formatted?
@@ -254,6 +267,7 @@ Now let's propose your changes for review.
 Want to practice more? Try these:
 
 ### Challenge 1: Use the Timeline View
+
 - Right-click on `press_release.md` in the Explorer
 - Select **Open Timeline**
 - See the complete history of changes to this file
@@ -261,11 +275,13 @@ Want to practice more? Try these:
 **Learn more:** [VS Code Docs: Timeline View](https://code.visualstudio.com/docs/sourcecontrol/overview#_timeline-view)
 
 ### Challenge 2: Undo a Change
+
 - Make an intentional mistake in the file
 - In the Source Control sidebar, right-click the file
 - Select **Discard Changes** to undo your edits
 
 ### Challenge 3: Review Someone Else's PR
+
 - Go to the [Pull Requests tab](https://github.com/AMD-melliott/style-guide-police/pulls)
 - Review a classmate's PR
 - Leave a comment or suggestion
@@ -275,14 +291,17 @@ Want to practice more? Try these:
 ## Troubleshooting
 
 ### "I can't see the Source Control icon"
+
 - Press `Ctrl+Shift+G` (Windows/Linux) or `Cmd+Shift+G` (Mac) to open Source Control
 - Or go to **View → Source Control** from the menu
 
 ### "The Diff View isn't showing"
+
 - Make sure you clicked on the filename in Source Control (not the + icon)
 - If it still doesn't work, try right-clicking the file and selecting **Open Changes**
 
 ### "I committed to main instead of a branch"
+
 - Don't worry! You can move your commit to a new branch:
   - Command Palette → `Git: Create Branch`
   - VS Code will ask if you want to move uncommitted changes
